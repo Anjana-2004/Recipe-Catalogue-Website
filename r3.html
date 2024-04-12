@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butter Chicken Recipe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #edffef; /* Text color */
+            position: relative; /* Ensure proper stacking order */
+            min-height: 100vh; /* Ensure the body covers the entire viewport */
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('bc3.jpg'); /* Background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: -1; /* Ensure it's behind other content */
+            opacity: 0.81; /* Set transparency level */
+        }
+
+        .header {
+            background-color: #213032; /* Background color for the header section */
+            padding: 20px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center align the text */
+        }
+
+        .container {
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: left; /* Align text to the left */
+            max-width: 800px;
+            margin: 20px auto; 
+            background-color: #213032; /* Semi-transparent background color for the container */
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 72px; 
+            font-weight: bold; 
+            color: #edffef; /* Text color */
+            text-transform: capitalize;
+        }
+
+        h2, h3 {
+            margin-bottom: 20px;
+            font-size: 42px; /* Increase font size for headings */
+            text-align: center; /* Center align the headings */
+        }
+
+        .images-container {
+            margin-bottom: 20px;
+            display: flex; /* Display images side by side */
+            justify-content: center; /* Center align images */
+            align-items: center;
+        }
+
+        .images-container img {
+            width: 260px; /* Adjust image width */
+            height: 260px; /* Adjust image height */
+            object-fit: cover;
+            border-radius: 50%; /* Make the image circular */
+            margin-left: 20px; /* Add space between images and text */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+            font-size: 28px; /* Increase font size for ingredients */
+            text-align: center; /* Center align the ingredients */
+            color: #edffef; /* Text color for ingredients */
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        ol {
+            padding-left: 20px; /* Indent ordered list */
+            margin-bottom: 20px;
+            font-size: 28px; /* Increase font size for instructions */
+        }
+
+        .icon-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .icon-container i {
+            margin-right: 10px;
+            font-size: 28px;
+            color: #edffef; /* Icon color changed */
+        }
+
+        .cook-time, .serving {
+            font-size: 28px;
+            color: #edffef; /* Icon color changed */
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 28px;
+            color: #edffef;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="background"></div>
+<a href="index.html" class="back-button"><i class="fas fa-arrow-left"></i> Back</a>
+<div class="header">
+    <h1>Butter Chicken Recipe</h1>
+</div>
+<div class="container">
+    <div class="images-container">
+        <img src="./bc1.jpg" alt="Butter Chicken">
+        <img src="./bc2.jpg" alt="Ingredient 1">
+        <img src="./bc3.jpg" alt="Ingredient 2">
+        <!-- Add more images as needed -->
+    </div>
+</div>
+<div class="container">
+    <h2>Ingredients:</h2>
+    <ul>
+        <li>Chicken - 500g, boneless, cubed</li>
+        <li>Onion - 2 large, finely chopped</li>
+        <li>Tomato - 3 medium, pureed</li>
+        <li>Ginger-Garlic Paste - 1 tbsp</li>
+        <li>Cashew Nuts - 10-12 pieces, soaked in water</li>
+        <li>Fresh Cream - 1/2 cup</li>
+        <li>Butter - 2 tbsp</li>
+        <li>Oil - 1 tbsp</li>
+        <li>Bay Leaf - 1</li>
+        <li>Cinnamon Stick - 1 inch</li>
+        <li>Cardamom Pods - 2-3</li>
+        <li>Cloves - 3-4</li>
+        <li>Red Chili Powder - 1 tsp</li>
+        <li>Turmeric Powder - 1/2 tsp</li>
+        <li>Coriander Powder - 1 tsp</li>
+        <li>Garam Masala - 1 tsp</li>
+        <li>Kasuri Methi (Dried Fenugreek Leaves) - 1 tsp</li>
+        <li>Salt - to taste</li>
+        <li>Coriander Leaves - for garnishing</li>
+    </ul>
+    <br>
+</div>
+<div class="container">
+    <h2>Cooking Instructions:</h2>
+    <ol>
+        <li>Heat butter and oil in a pan, add bay leaf, cinnamon stick, cardamom pods, and cloves. Sauté until fragrant.</li>
+        <li>Add chopped onions and sauté until golden brown.</li>
+        <li>Add ginger-garlic paste and sauté for a few minutes until the raw smell disappears.</li>
+        <li>Add pureed tomatoes, red chili powder, turmeric powder, coriander powder, and salt. Cook until the oil separates.</li>
+        <li>Meanwhile, grind soaked cashew nuts with a little water to form a smooth paste.</li>
+        <li>Add the cashew paste to the pan and mix well.</li>
+        <li>Add chicken pieces and cook until they are done.</li>
+        <li>Add fresh cream, garam masala, and kasuri methi. Mix well and cook for another few minutes.</li>
+        <li>Garnish with chopped coriander leaves and serve hot with naan or rice.</li>
+    </ol>
+    <div class="icon-container">
+        <p class="cook-time"><i class="fas fa-clock"></i>Cooking Time: Approximately 30-40 minutes&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p class="serving"><i class="fas fa-users"></i>Serves: 4 people</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #edffef;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #241104; /* Brown background color */
+            z-index: -1; /* Ensure it's behind other content */
+        }
+
+        .header {
+            background-color: #213032; /* Background color for the header section */
+            padding: 20px;
+            text-align: center; 
+            color: #edffef;
+            font-size:32px;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .menu-item {
+            width: calc(33.33% - 40px);
+            margin: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #213032; /* Dark background color */
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .menu-item-content {
+            padding: 20px;
+           
+        }
+
+        .menu-item-title {
+            margin-bottom: 10px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #edffef;
+        }
+
+        .menu-item-description {
+            font-size: 16px;
+            color: #edffef; 
+            background-color: #213032;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 22px;
+        }
+        
+        /* Style for back button */
+        .back-button {
+            font-size: 24px;
+            color: #edffef;
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+<div class="background"></div>
+<div class="header">
+    <h1>Dessert Menu</h1>
+</div>
+<!-- Back button -->
+<div style="position: absolute; top: 20px; left: 20px;">
+    <a href="index.html" class="back-button">
+        <i class="fas fa-arrow-left" style="font-size: 28px;"></i> Back
+    </a>
+</div>
+<div class="menu-container">
+    <div class="menu-item">
+        <img src="./carrothalwa.jpg" alt="Carrot Halwa">
+        <div class="menu-item-content">
+            <h2 class="menu-item-title">Carrot Halwa</h2>
+            <p class="menu-item-description">Sweet Indian dessert made with grated carrots, milk, sugar, and nuts.</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="./kk.jpg" alt="Kaju Katli">
+        <div class="menu-item-content">
+            <h2 class="menu-item-title">Kaju Katli</h2>
+            <p class="menu-item-description">Traditional Indian sweet made with cashew nuts, sugar, and ghee.</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="./gulab_jamun.jpg" alt="Gulab Jamun">
+        <div class="menu-item-content">
+            <h2 class="menu-item-title">Gulab Jamun</h2>
+            <p class="menu-item-description">Deep-fried milk solids soaked in sugar syrup, flavored with rose water and cardamom.</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="./rasmalai.jpg" alt="Rasmalai">
+        <div class="menu-item-content">
+            <h2 class="menu-item-title">Rasmalai</h2>
+            <p class="menu-item-description">Soft cottage cheese patties soaked in sweetened, thickened milk, flavored with saffron and cardamom.</p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

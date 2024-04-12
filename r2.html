@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutton Biryani Recipe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #edffef; /* Text color */
+            position: relative;
+            min-height: 100vh; /* Ensure the body covers the entire viewport */
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('mb2.jpg'); /* Background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: -1; /* Ensure it's behind other content */
+            opacity: 0.81; /* Set transparency level */
+        }
+
+        .header {
+            background-color: #213032; /* Background color for the header section */
+            padding: 20px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center align the text */
+        }
+
+        .container {
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: left; 
+            max-width: 800px;
+            margin: 20px auto; 
+            background-color: #213032; 
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 72px;
+            font-weight: bold; 
+            color: #edffef; 
+            text-transform: capitalize;
+        }
+
+        h2, h3 {
+            margin-bottom: 20px;
+            font-size: 42px; /* Increase font size for headings */
+            text-align: center; /* Center align the headings */
+        }
+
+        .images-container {
+            margin-bottom: 20px;
+            display: flex; /* Display images side by side */
+            justify-content: center; /* Center align images */
+            align-items: center;
+        }
+
+        .images-container img {
+            width: 260px; 
+            height: 260px; /* Adjust image height */
+            object-fit: cover;
+            border-radius: 50%; /* Make the image circular */
+            margin-left: 20px; 
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+            font-size: 28px; /* Increase font size for ingredients */
+            text-align: center; 
+            color: #edffef; 
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        ol {
+            padding-left: 20px; /* Indent ordered list */
+            margin-bottom: 20px;
+            font-size: 28px; 
+        }
+
+        .icon-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .icon-container i {
+            margin-right: 10px;
+            font-size: 28px;
+            color: #edffef; /* Icon color changed */
+        }
+
+        .cook-time, .serving {
+            font-size: 28px;
+            color: #edffef; /* Icon color changed */
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 28px;
+            color: #edffef;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="background"></div>
+<a href="index.html" class="back-button"><i class="fas fa-arrow-left"></i> Back</a>
+<div class="header">
+    <h1>Mutton Biryani Recipe</h1>
+</div>
+<div class="container">
+    <div class="images-container">
+        <img src="./mb1.jpg" alt="Mutton Biryani">
+        <img src="./mb2.jpg" alt="Ingredient 1">
+        <img src="./mb3.jpg" alt="Ingredient 2">
+        <!-- Add more images as needed -->
+    </div>
+</div>
+<div class="container">
+    <h2>Ingredients:</h2>
+    <ul>
+        <li>Mutton - 500g, cut into pieces</li>
+        <li>Basmati Rice - 2 cups</li>
+        <li>Onion - 3 large, thinly sliced</li>
+        <li>Tomato - 2 medium, chopped</li>
+        <li>Ginger-Garlic Paste - 2 tbsp</li>
+        <li>Yogurt - 1 cup</li>
+        <li>Mint Leaves - 1/2 cup, chopped</li>
+        <li>Cilantro Leaves - 1/2 cup, chopped</li>
+        <li>Ghee - 1/4 cup</li>
+        <li>Oil - 2 tbsp</li>
+        <li>Whole Spices (Bay Leaf, Cardamom, Cinnamon, Cloves) - as needed</li>
+        <li>Green Chilies - 4, slit</li>
+        <li>Red Chili Powder - 1 tsp</li>
+        <li>Turmeric Powder - 1/2 tsp</li>
+        <li>Biryani Masala - 2 tbsp</li>
+        <li>Salt - to taste</li>
+        <li>Saffron Strands - a few, soaked in warm milk</li>
+    </ul>
+    <br>
+</div>
+<div class="container">
+    <h2>Cooking Instructions:</h2>
+    <ol>
+        <li>Soak basmati rice in water for 30 minutes.</li>
+        <li>Heat ghee and oil in a pan, add whole spices and sauté.</li>
+        <li>Add onions and sauté until golden brown.</li>
+        <li>Add ginger-garlic paste, green chilies, and sauté for 2 minutes.</li>
+        <li>Add tomatoes, mint leaves, cilantro leaves, yogurt, and cook until oil separates.</li>
+        <li>Add mutton pieces, red chili powder, turmeric powder, biryani masala, and salt. Cook until the mutton is tender.</li>
+        <li>In a separate pot, boil water and cook the soaked rice until 70% done.</li>
+        <li>Layer the cooked mutton and rice alternatively in a pot.</li>
+        <li>Top with saffron-infused milk and cover tightly. Cook on low heat for 20 minutes.</li>
+        <li>Mutton Biryani is ready to serve. Enjoy it hot with raita!</li>
+    </ol>
+    <div class="icon-container">
+        <p class="cook-time"><i class="fas fa-clock"></i>Cooking Time: Approximately 1 hour&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p class="serving"><i class="fas fa-users"></i>Serves: 4-6 people</p>
+    </div>
+</div>
+</body>
+</html>
