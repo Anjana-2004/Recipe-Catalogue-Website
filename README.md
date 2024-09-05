@@ -13,6 +13,7 @@ The project consists of the following files:
 - `da.css`: The CSS file for styling.
 - `script2.js`: The JavaScript file for functionality.
 - Image files used to enhance the visual representation of dishes.
+- ![Flow Chart of the project](flowchart.jpg)
 
 # Getting Started
 
