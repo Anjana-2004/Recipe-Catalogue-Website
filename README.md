@@ -1,4 +1,4 @@
-# Culinery Website
+# Recipe Catalogue Website
 
 This project showcases a variety of Indian thali dishes using a web interface. It includes HTML files for individual sections (such as main courses and desserts), a CSS file for styling, and a JavaScript file for functionality.
 
